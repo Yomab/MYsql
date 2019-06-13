@@ -19,3 +19,11 @@
 <p>DROP TABLE tools</p>
 <p>DROP TABLE ide</p>
 <p>CREATE TABLE clients (id INT AUTO_INCREMENT,lastname VARCHAR(30),firstname VARCHAR(30),birthDate DATE,address VARCHAR(60), firstPhoneNumber INT,secondPhoneNumber INT,mail VARCHAR(30), PRIMARY KEY (id) ) ENGINE=INNODB;</p>
+
+<h1>Partie3</h1>
+
+<p>ALTER TABLE languages ADD versions VARCHAR(30);</p>
+<p>ATLTER TABLE frameworks  ADD versions INT ;</p>
+<p>CHANGE versions version VARCHAR(30);</p>
+<p>CHANGE name  framework VARCHAR(30);</p>
+<p>CHANGE version version VARCHAR(10);<p>
