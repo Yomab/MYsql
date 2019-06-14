@@ -27,3 +27,28 @@
 <p>CHANGE versions version VARCHAR(30);</p>
 <p>CHANGE name  framework VARCHAR(30);</p>
 <p>CHANGE version version VARCHAR(10);<p>
+<p>USE codex</p>
+<p>ALTER TABLE clients
+DROP COLUMN secondPhoneNumber;</p>
+<p>ALTER TABLE clients
+CHANGE firstPhoneNumber PhoneNumber VARCHAR(10);</p>
+<p>ALTER TABLE clients
+ADD COLUMN ZipCode VARCHAR(10);</p>
+<p>ALTER TABLE clients
+ADD COLUMN City VARCHAR(10);</p>
+
+<h1>Partie4</h1>
+<p>USE webDevelopment</p>
+<p>INSERT INTO 'languages' VALUES('languages','version') VALUES('Javascript','5');</p>
+<p>INSERT INTO 'languages' VALUES('languages','version') VALUES('PHP','5.2');</p>
+<p>INSERT INTO 'languages' VALUES('languages','version') VALUES('PHP','5.4');</p>
+<p>INSERT INTO 'languages' VALUES('languages','version') VALUES('HTML','5.1');</p>
+<p>INSERT INTO 'languages' VALUES('languages','version') VALUES('Javascript','6');</p>
+<p>INSERT INTO 'languages' VALUES('languages','version') VALUES('Javascript','7');</p>
+<p>INSERT INTO 'languages' VALUES('languages','version') VALUES('Javascript','8');</p>
+<p>INSERT INTO 'languages' VALUES('languages','version') VALUES('PHP','7');</p>
+
+<p>INSERT INTO 'frameworks' VALUES('name','version') VALUES('symfony','2.8');</p>
+<p>INSERT INTO 'frameworks' VALUES('name','version') VALUES('symfony','3');</p>
+<p>INSERT INTO 'frameworks' VALUES('name','version') VALUES('Jquery','1.6');</p>
+<p>INSERT INTO 'frameworks' VALUES('name','version') VALUES('Jquery','2.10');</p>
