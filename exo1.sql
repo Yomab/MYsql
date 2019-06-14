@@ -52,3 +52,19 @@ ADD COLUMN City VARCHAR(10);</p>
 <p>INSERT INTO 'frameworks' VALUES('name','version') VALUES('symfony','3');</p>
 <p>INSERT INTO 'frameworks' VALUES('name','version') VALUES('Jquery','1.6');</p>
 <p>INSERT INTO 'frameworks' VALUES('name','version') VALUES('Jquery','2.10');</p>
+
+<h1>Partie5</h1>
+<p>SHOW COLUMNS FROM languages</p>
+<p>SELECT*
+FROM languages
+WHERE languages='PHP';</p>
+<p>SELECT*
+FROM languages
+WHERE languages IN ('PHP','Javascript');</p>
+SELECT*
+FROM languages
+WHERE id IN ('3','5','7');</p>
+<p>SELECT*
+FROM languages WHERE languages='Javascript' LIMIT 2 OFFSET 0;</p>
+<p>SELECT* FROM languages WHERE NOT languages='PHP';</p>
+<p>SELECT* FROM languages ORDER BY languages;</p>
