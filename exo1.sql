@@ -81,3 +81,9 @@ WHERE id IN ('1','3');</p>
 <p>UPDATE frameworks
 SET name = 'symfony2'
 WHERE name = 'symfony';</p>
+<p>UPDATE languages SET languages= 'Javascript',version='5.1' WHERE id='1';
+
+<p>Partie8</p>
+<p>SELECT languages.name , frameworks.name FROM languages LEFT JOIN frameworks ON languages.id = frameworks.languagesID;</p>
+<p>SELECT languages.name , frameworks.name FROM languages INNER JOIN frameworks ON languages.id = frameworks.languagesID;</p>
+<p>SELECT languages.name , COUNT(frameworks.name) FROM languages LEFT JOIN frameworks ON languages.id = frameworks.languagesID GROUP BY languages.name HAVING COUNT(frameworks.name) >3 ;</p>
