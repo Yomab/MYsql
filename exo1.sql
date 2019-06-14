@@ -75,3 +75,9 @@ SELECT*
 FROM frameworks
 WHERE id IN ('1','3');</p>
 <p>SELECT* FROM ide WHERE date BETWEEN '2010-01-01' AND '2011-12-31'; </p>
+
+<h1>Partie7</h1>
+<p>DELETE FROM languages WHERE languages= 'HTML';</p>
+<p>UPDATE frameworks
+SET name = 'symfony2'
+WHERE name = 'symfony';</p>
