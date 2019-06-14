@@ -68,3 +68,10 @@ WHERE id IN ('3','5','7');</p>
 FROM languages WHERE languages='Javascript' LIMIT 2 OFFSET 0;</p>
 <p>SELECT* FROM languages WHERE NOT languages='PHP';</p>
 <p>SELECT* FROM languages ORDER BY languages;</p>
+
+<h1>Partie6</h1>
+<p>SELECT* FROM frameworks WHERE version LIKE '2.%';</p>
+SELECT*
+FROM frameworks
+WHERE id IN ('1','3');</p>
+<p>SELECT* FROM ide WHERE date BETWEEN '2010-01-01' AND '2011-12-31'; </p>
